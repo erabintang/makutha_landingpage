@@ -12,7 +12,7 @@ export default function FAQ() {
     { q: "Apakah fitur simulasi AI ini Gratis?", a: "Fitur scan dasar dan rekomendasi bentuk wajah 100% gratis. Untuk membuka akses penuh ke katalog model rambut premium edisi terbatas, tersedia opsi berlangganan yang sangat terjangkau." },
   ];
 
-  const [activeIndex, setActiveIndex] = useState<number | null>(null);
+  const [activeIndex, setActiveIndex] = useState(null);
 
   return (
     <section id="faq" className="py-24 md:py-32 bg-bg-light relative">

@@ -1,16 +1,16 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Search, Scissors, Sparkles, Calendar, CreditCard, CheckCircle } from "lucide-react";
+import { Search, Scissors, Bot, Calendar, CreditCard, CheckCircle } from "lucide-react";
 
 export default function Workflow() {
   const steps = [
-    { icon: Search, title: "Cari Barber", desc: "Temukan yang terdekat" },
-    { icon: Scissors, title: "Pilih Hairstyle", desc: "Eksplorasi tren terbaru" },
-    { icon: Sparkles, title: "Preview AI", desc: "Simulasi instan di wajahmu" },
-    { icon: Calendar, title: "Booking", desc: "Amankan slot & kapster" },
-    { icon: CreditCard, title: "Pembayaran", desc: "Cashless super cepat" },
-    { icon: CheckCircle, title: "Datang", desc: "Potong tanpa antre" },
+    { icon: Search, title: "Find a Barber", desc: "Discover the nearest one" },
+    { icon: Scissors, title: "Choose Hairstyle", desc: "Explore the latest trends" },
+    { icon: Calendar, title: "Booking", desc: "Secure your slot & stylist" },
+    { icon: CreditCard, title: "Payment", desc: "Fast cashless checkout" },
+    { icon: Bot, title: "Preview AI Try On", desc: "Help you choose the perfect style" },
+    { icon: CheckCircle, title: "Arrive", desc: "Get your haircut without waiting" },
   ];
 
   return (
@@ -19,9 +19,9 @@ export default function Workflow() {
         
         {/* Header */}
         <div className="text-center max-w-2xl mx-auto mb-20">
-          <p className="text-xs font-bold uppercase tracking-widest text-primary mb-3">Proses Instan</p>
+          <p className="text-xs font-bold uppercase tracking-widest text-primary mb-3">Instant Process</p>
           <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight text-dark">
-            Alur Pemesanan Tanpa Ribet
+            A Simple Booking Flow
           </h2>
         </div>
 

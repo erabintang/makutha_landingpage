@@ -12,7 +12,7 @@ export default function Feature() {
       icon: Sparkles,
       title: "AI Hairstyle Preview",
       desc: "Coba ratusan model rambut secara real-time lewat kamera HP sebelum potong.",
-      color: "from-purple-500/10 to-indigo-500/10",
+      color: "from-orange-500/10 to-amber-500/10",
       iconColor: "text-primary"
     },
     {

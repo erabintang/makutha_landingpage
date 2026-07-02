@@ -1,16 +1,11 @@
-import type { Metadata } from "next";
 import "./globals.css";
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "MAKUTHA - Temukan Gaya Rambut Terbaikmu dengan AI",
   description: "AI Hair Try-On & Booking Barbershop Platform Premium.",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }) {
   return (
     <html lang="id">
       <head>

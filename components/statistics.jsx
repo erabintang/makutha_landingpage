@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 
 // Sub-komponen untuk counter angka yang smooth tanpa library tambahan
-function Counter({ value, suffix = "" }: { value: number; suffix?: string }) {
+function Counter({ value, suffix = "" }) {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
